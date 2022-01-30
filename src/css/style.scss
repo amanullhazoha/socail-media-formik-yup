@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    background: #FFFFFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+    .navbar-brand{
+        color: #1b74e4;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .nav-link{
+        color: #65676b;
+        font-size: 16px;
+        font-weight: 500;
+        &:hover{
+            color: #1b74e4;
+        }
+    }
+}
+
+#mainSection{
+    background: #F0F2F5;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+
+    .login{
+        background: #fff;
+        margin-top: 130px;
+        margin-bottom: 130px;
+        padding: 30px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 
+                    0 8px 16px rgb(0 0 0 / 10%);
+        
+        .form-control{
+            margin-bottom: 15px;
+        }
+
+        .btn{
+            width: 100%;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .singup{
+        background: #fff;
+        padding: 30px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 
+                    0 8px 16px rgb(0 0 0 / 10%);
+
+        .form-control{
+            margin-bottom: 15px;
+        }
+
+        .btn{
+            width: 100%;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}
